@@ -1,0 +1,22 @@
+{
+    "name": "hazzard/cookie",
+    "description": "A simple cookie package.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Cretu Eusebiu",
+            "email": "cretu.eusebiu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hazzard\\Cookie\\": "src/"
+        }
+    },
+    "suggest": {
+        "hazzard/encryption": "Required to for encrypted cookies."
+    }
+}
